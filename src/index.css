@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* custom animations */
+@layer utilities {
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scrollLeft {
+    animation: scrollLeft 20s linear infinite;
+  }
+}
