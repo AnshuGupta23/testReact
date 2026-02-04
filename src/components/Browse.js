@@ -32,7 +32,7 @@ const Browse = () => {
   };
 
   return (
-    <div className="border-2 py-5 h-60 flex flex-col">
+    <div className="border-2 py-5 h-70 flex flex-col">
       <div className="flex items-center px-30 border-2 justify-between py-2">
         <h1 className="text-4xl font-bold">Browse</h1>
         <div className="flex gap-2">
