@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import UserContext from "../utilities/UserContext";
+import UserContext from "../../utilities/UserContext";
 
 const Header = () => {
   const { loggedInUser } = useContext(UserContext);
 
   return (
-    <div className="m-1 px-12 flex items-center shadow-sm text-sm">
+    <div className="sticky top-0 bg-white z-50 px-12 py-0.5 flex items-center shadow-md text-sm">
       <div className="ml-8 mx-2 p-1 cursor-pointer">
         <ul>Logo</ul>
       </div>
